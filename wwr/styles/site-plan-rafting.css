@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
 :root{
-    --primary-color: #xxxxxx
-    --secondary-color: #xxxxxx
-    --accent2-color: #xxxxxx
+    --primary-color: #ff220c;
+    --secondary-color: #d33e43;
+    --accent1-color: #9b7874;
+    --accent2-color: #767382;
 
-    --heading-font:'', serif;
-    --paragraph-font: '', serif;
+    --heading-font:'Open Sans', serif;
+    --paragraph-font: Roboto, serif;
 
-    --nav-backgound-color: #xxxxxx
-    --nav-link-color: #xxxxxx
-    --nav-hover-link-color: #xxxxxx
-    --nav-hover-background-color: #xxxxxx
+    --nav-backgound-color: #57609E;
+    --nav-link-color: #D33E43;
+    --nav-hover-link-color: #9B7874;
+    --nav-hover-background-color: #FF220C;
 
 }
 
