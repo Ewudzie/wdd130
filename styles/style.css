@@ -49,7 +49,7 @@ img{
 }
 
 main img{
-  width: 150;
+  width: 150px;
   height: auto;
   float: right;
   margin: 0 0 1rem 1rem;
@@ -79,7 +79,7 @@ footer{
 
 .box {
   margin: 1rem;
-  border: 1px solid rgba(red, green, blue, alpha);
+  border: 1px solid rgba(0, 0, 0, 1);
   padding: 1rem;
   background-color: #ddd;
   color: #000;
