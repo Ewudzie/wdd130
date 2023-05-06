@@ -51,6 +51,7 @@ img{
 main img{
   width: 150px;
   height: auto;
+  border: 1px solid steelblue;
   float: right;
   margin: 0 0 1rem 1rem;
 }
