@@ -1,6 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Open Sans:wght@600&family=Roboto&display=swap')
   :root {
-    background-color: aqua;  
+    background-color:aqua;  
   }
 
   h1{
@@ -29,5 +29,6 @@ article{
 }
 
 img{
+    float: right;
 
 }
