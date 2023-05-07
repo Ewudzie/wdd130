@@ -4,7 +4,7 @@
   }
 
   h1{
-    position: relative;
+    position: absolute;
     top: 140px;
     text-align: center;
 
@@ -12,5 +12,22 @@
 
 h2{
     position: absolute;
-    
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+article{
+    position: absolute;
+    background-color: azure;
+    opacity: 1;
+}
+
+img{
+
 }
