@@ -2,33 +2,47 @@
   :root {
     background-color:aqua;  
   }
-
+body{
+  width: 900px;
+  margin: 0 auto;
+}
   h1{
     position: absolute;
-    top: 140px;
+    top: 20px;
+    right: 0;
+    left: 0;
     text-align: center;
+  
 
   }
 
-h2{
-    position: absolute;
 
-}
 
 .hero img {
-    display: block;
+    
     width: 100%;
     height: auto;
 
 }
 
-article{
-    position: absolute;
-    background-color:black;
-    opacity: 1;
+
+
+.hero article img{
+    float: right;
+    width: 100px;
+    padding: 1rem;
+
 }
 
-img{
-    float: right;
+.hero{
+  position: relative;
+}
 
+.hero article{
+  position: absolute;
+  background-color: rgba(240, 255, 255, .80);
+    top: 100px;
+    right: 5px;
+    left: 5px;
+    text-align: center;
 }
