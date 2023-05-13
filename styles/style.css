@@ -100,7 +100,10 @@ footer{
 }
 
 header, .grid, footer {
+  
+ 
+}
+.grid {
   display: grid;
   align-items: center;
- 
 }
