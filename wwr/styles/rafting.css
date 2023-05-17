@@ -68,8 +68,22 @@ header{
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  justify-content: center;
   
+  
+}
+
+figure {
+  margin: 0;
+  padding: 2px;
+}
+
+figure img{
+  max-width: 100%;
+
+}
+
+figcaption {
+  text-align: center;
 }
 
 .logo img {
@@ -131,10 +145,23 @@ img {
 }
 div .grid {
   display: grid;
-  
+
 }
 footer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-content: ;
+  grid-template-columns: 75% 25%;
+  justify-content: space-around;
+ 
+  
+}
+nav {
+  display: flex;
+  align-items: end;
+ 
+
+}
+
+nav a img {
+  width: 50%;
+  padding: 1rem;
 }
