@@ -169,5 +169,73 @@ nav a img {
 
 h3 {
   text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
 }
 
+.grid-contact {
+  display: grid;
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-content: space-around;
+  align-items: center;
+  
+
+
+}
+
+.grid-contact img {
+
+  width: 800px;
+  height: 250px;
+  padding: 2px;
+
+}
+.grid-contact figcaption {
+  text-align: center;
+  
+}
+
+.company-info {
+  text-align: left;
+  padding: 2px;
+}
+
+form {
+  width: 650px;
+  margin: 1rem;
+  padding: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5;
+  background-color: #eee;
+  display: grid;
+ 
+}
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.2rem;
+}
+label {
+  text-align: left;
+  padding-right: 2rem;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 3.2;
+}
