@@ -230,11 +230,6 @@ label {
   padding-right: 2rem;
 }
 
-input, select, textarea {
-  padding: 0.1rem;
-  font-size: 1.1rem;
-}
-
 button {
   margin: 1rem;
   background-color: navy;
