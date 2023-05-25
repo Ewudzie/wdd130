@@ -31,6 +31,13 @@ body{
 
 }
 
+.company-style {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 3rem;
+  padding: 2px;
+}
+
 
 
 .hero article img{
@@ -188,7 +195,7 @@ h3 {
 .grid-contact img {
 
   width: 800px;
-  height: 250px;
+  height: auto;
   padding: 2px;
 
 }
