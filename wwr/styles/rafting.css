@@ -159,8 +159,6 @@ footer {
   grid-template-columns: 75% 25%;
   justify-content: space-around;
 
- 
-  
 }
 nav {
   display: flex;
@@ -277,12 +275,18 @@ button {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 align-items: center;
+text-align: center;
+
+}
+table, td {
+  border: 1px solid #ccc;
 }
 
-img {
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-  width:  200px;
+thead, tfoot {
+  background-color: #ccc;
+  border-collapse: collapse;
+}
 
+th, td {
+  padding: 0.5rem;
 }
