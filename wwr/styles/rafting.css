@@ -30,6 +30,41 @@ h1{
     height: auto;
 
 }
+.hero-home {
+  position: relative;
+}
+.hero-home img {
+  width: 100%;
+  height: auto;
+}
+.center {
+  text-align: center;
+}
+.hero-home h1{
+  position: absolute;
+  top: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  right: 0;
+  left: 0;
+  text-align: center;
+  margin: 2rem;
+  padding: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+.button {
+  background-color: aqua;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid aqua;
+  font-size: large;
+  border-radius: 5px;
+}
+
+
 
 .company-style {
   display: grid;
@@ -123,7 +158,9 @@ nav {
   text-decoration: none;
 
 }
-
+.center {
+  text-align: center;
+}
 .navigation a:hover {
   color: tomato;
 }
@@ -202,6 +239,10 @@ h3 {
   
 }
 
+.relative {
+  position: relative;
+}
+
 .company-info {
   text-align: left;
   padding: 2px;
@@ -252,6 +293,10 @@ button {
 
 /*CSS for Trips*/
 
+.hero-trips {
+  position: relative;
+}
+
 .hero-trips img {
     
   width: 100%;
@@ -278,6 +323,10 @@ align-items: center;
 text-align: center;
 
 }
+
+.grid-trip img {
+  margin: 0 auto;
+}
 table, td {
   border: 1px solid #ccc;
 }
@@ -290,3 +339,12 @@ thead, tfoot {
 th, td {
   padding: 0.5rem;
 }
+
+.grid-home,figcaption {
+  text-align: left;
+}
+
+/*.grid-home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
