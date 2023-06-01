@@ -327,6 +327,9 @@ text-align: center;
 .grid-trip img {
   margin: 0 auto;
 }
+.grid-trip figcaption {
+  text-align: center;
+}
 table, td {
   border: 1px solid #ccc;
 }
@@ -344,7 +347,22 @@ th, td {
   text-align: left;
 }
 
-/*.grid-home {
+.grid-home {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-} */
+  gap: 4rem;
+  margin: 1.5rem;
+  padding: 2px;
+} 
+
+.grid-home img{
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-right: 2.5rem;
+
+}
+.grid-home figcaption {
+  text-align: center;
+  text-decoration: solid;
+}
